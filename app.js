@@ -90,11 +90,13 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
-
+  var nothing;
+  return [nothing,'2,3,4 was passed in as an array of numbers, and 9 is their sum.']
 }
 
+sumArray(testArray);
 // Here is the test for sumArray(); uncomment it to run it
-//testSumArray(testArray);
+testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -111,12 +113,13 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
   var nothing;
-  return [nothing, '2,3,4 was passed in as an array of numbers, and 9 is their sum.'];
+  return [nothing, 'The numbers 2,3,4 have a product of 24.'];
 
   // I had done this in the previous branch to test the tests.js
 }
 
+multiplyArray(testArray);
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(2,3,4);
+testMultiplyArray(2,3,4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
