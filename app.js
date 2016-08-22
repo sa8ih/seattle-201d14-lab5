@@ -112,6 +112,8 @@ Test this function by hand in the console to get it working, and when you think 
 function multiplyArray(testArray){ //eslint-disable-line
   var nothing;
   return [nothing, '2,3,4 was passed in as an array of numbers, and 9 is their sum.'];
+
+  // I had done this in the previous branch to test the tests.js
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
